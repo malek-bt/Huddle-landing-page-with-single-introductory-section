@@ -35,7 +35,7 @@ Mobile version
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/malek-bt/Huddle-landing-page-with-single-introductory-section)
-- Live Site URL: [GitHub Pages Live URL]()
+- Live Site URL: [GitHub Pages Live URL](https://malek-bt.github.io/Huddle-landing-page-with-single-introductory-section/)
 
 ## My process
 
