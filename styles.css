@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/bg-desktop.svg") ;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    margin-top: 3.5rem;
+   
+}
+.logo {
+    width: 11rem;
+}
+h1{
+    margin-top: 12rem;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+p{
+    color: white; 
+    margin-top: 3rem;
+    font-family: 'Open Sans', sans-serif; 
+    padding-right: 3.125rem;
+}
+
+.btn {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: end;
+}
+ion-icon , a {
+    font-size: 2rem;
+    color: white;
+    padding-left: .3125rem;
+   
+}
+
+ion-icon:hover {
+    color: hsl(300, 69%, 71%);
+}
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+@media screen and (max-width:430px){
+    body {
+        background-image: url("images/bg-mobile.svg") ;
+        background-repeat: no-repeat;
+        
+    }
+    img {
+        margin-left: 10px;
+        max-width: 280px;
+       
+    }
+    h1{
+        margin-top: 1.25rem;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    p{
+        text-align: center;
+        padding-left: 1rem;
+        margin-top: 2rem;
+        
+    }
+    .btn {
+        margin-left: 55px !important;
+        padding-left: 50px;
+        padding-right: 50px;
+       
+    }
+    footer {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    
+    }
+    
+}
+@media  screen and (max-width:1100px)and (min-width:720px){
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    p , .btn{
+        margin-left: 20px;
+    }
+    
+    
+}
